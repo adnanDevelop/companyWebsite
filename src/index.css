@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Roboto:wght@300;400;500;700;900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-primary;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-primary;
+  }
+
+  .btn-primary-sm {
+    @apply  w-[120px] h-[33px] rounded-full bg-sky-500 border border-sky-500 capitalize font-primary text-[15px] text-white font-semibold flex items-center justify-center transition duration-500 hover:text-white focus:text-white hover:bg-sky-900 focus:bg-sky-900 ;
+  }
+
+  .padding-block {
+    @apply md:py-[100px] py-[20px];
+  }
+
+  h1 {
+    @apply text-[50px] font-extrabold capitalize text-white;
+  }
+
+}
+
+.dropdown ul {
+  transition: all 0.3s linear;
+}
+
+ .dropdown:focus ul {
+  opacity: 1 !important;
+  top: 140%;
+}
