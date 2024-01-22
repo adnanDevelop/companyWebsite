@@ -14,10 +14,10 @@ const AboutHero = () => {
         {/* IMAGE SECTION */}
         <div className="flex items-center lg:gap-6 gap-4 md:px-[50px] ">
             <div className="lg:basis-2/3 sm:basis-2/4 basis-full " >
-            <img src="/image/about/img-1.jpg" className='w-full md:h-[400px] h-[300px]  object-cover rounded-3xl'  alt="" />
+            <img src="/image/about/about-header/img-1.jpg" className='w-full md:h-[400px] h-[300px]  object-cover rounded-3xl'  alt="" />
             </div>
             <div className="lg:basis-1/3 sm:basis-2/4 basis-full " >
-                <img src="/image/about/img-2.jpg" className='w-full md:h-[400px] h-[300px]  object-cover rounded-3xl'  alt="" />
+                <img src="/image/about/about-header/img-2.jpg" className='w-full md:h-[400px] h-[300px]  object-cover rounded-3xl'  alt="" />
             </div>
         </div>
 

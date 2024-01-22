@@ -10,6 +10,7 @@ import Career from './component/Page/Career';
 import Blog from './component/Page/Blog';
 import Contact from './component/Page/Contact';
 import NotFound from './component/Page/NotFound';
+import CareerSingle from "./component/Page/CareerSingle";
 
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
       <Route path="/serviceautomation" element={<ServiceAutomation />}  />
       <Route path="/about" element={<About />}  />
       <Route path="/career" element={<Career />}  />
+      <Route path="/career/:userId" element={<CareerSingle />}  />
       <Route path="/blog" element={<Blog />}  />
       <Route path="/contact" element={<Contact />}  />
       <Route path="*" element={<NotFound />}  />

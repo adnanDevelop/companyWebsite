@@ -6,19 +6,19 @@ import { serviceData } from "../../Data/Api";
 const ServiceSection = () => {
   return (
     <div className="service_section padding-inline flex padding-block ">
-      <div className="service_heading_section flex lg:items-center lg:flex-row flex-col ">
-        <div className=" basis-full lg:basis-1/2 ">
+      <div className="service_heading_section flex lg:items-center justify-between lg:flex-row flex-col ">
+        <div className=" basis-full xl:basis-1/2 ">
           <p className="mb-2 text-sky-500 font-medium sm:text-[20px] text-[18px]  capitalize">
             services
           </p>
-          <p className="gradient_color 2xl:text-[45px] lg:text-[35px] sm:text-[30px] text-[25px]  font-semibold font-primary lg:pe-[50px] relative">
+          <p className="gradient_color xl:text-[45px]  sm:text-[30px] text-[25px] lg:pe-[30px]  font-semibold font-primary  relative  ">
             Experience tailored excellence, designed to elevate your
             connectivity, deliver personalized solutions, and streamline
             operations.
             <img src="/image/service-icon.png" alt="" />
           </p>
         </div>
-        <div className="basis-full lg:basis-1/2  lg:mt-0 mt-[30px]">
+        <div className="basis-full xl:basis-2/5  lg:mt-0 mt-[30px]">
           {serviceData.map((element, index) => {
             return (
               <div key={index} className="service_question pb-3 border-b-[1px] border-b-soft-white">
