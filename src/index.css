@@ -5,8 +5,7 @@
 
 @layer base {
   body {
-    @apply font-primary;
-    user-select: none;
+    @apply font-primary selection:bg-sky-500 selection:text-white ;
   }
 
   h1,
@@ -29,10 +28,12 @@
 
   .btn-primary-md {
     @apply w-[220px]  h-[50px]  text-[14px]  border bg-sky-500 rounded-[5px] text-white font-bold flex items-center justify-center;
-  }
-   
+  }  
 
-  /* CUSTOM CSS */
+
+  /*
+     CUSTOM CSS
+  */
   .padding-block {
     @apply lg:py-[100px] md:py-[80px] py-[40px];
   }
@@ -46,7 +47,7 @@
   }
 
   .margin-inline {
-    @apply 2xl:mx-[100px] sm:mx-[70px] mx-[30px];
+    @apply 2xl:mx-[100px] md:mx-[60px] mx-[30px];
   }
 
   .text-last-left {
@@ -166,8 +167,8 @@
   width: 70%;
   height: 30%;
   background: linear-gradient(180deg, #FFF 0%, rgba(255, 255, 255, 0.00) 100%);
-
 }
+
 .career_team_section::after {
   content: '';
   position: absolute;
@@ -177,6 +178,7 @@
   height: 30%;
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.00) 0%, #FFF 100%);
 }
+
 
 @media (max-width : 1024px) {
   .project_section::before {

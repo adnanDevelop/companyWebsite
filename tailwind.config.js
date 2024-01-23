@@ -2,7 +2,11 @@
 module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      dropShadow : {
+        '1xl' : '0px 17px 44px rgba(179, 179, 179, 0.25)',
+      }
+    },
     colors: {
       'blue': "#020332",
       'sky': {
@@ -17,6 +21,7 @@ module.exports = {
       'gray': '#797979',
 
     },
+
     fontFamily: {
       'primary': ['Plus Jakarta Sans', "sans-serif"],
       'secondary': ['Roboto', 'sans-serif'],

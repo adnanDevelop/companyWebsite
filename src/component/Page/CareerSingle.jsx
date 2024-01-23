@@ -2,6 +2,8 @@ import React from 'react'
 import { useParams } from 'react-router-dom'
 import { jobContent } from '../Data/Api';
 import JobDetail from '../element/CareerSingle/JobDetail';
+import CareerForm from '../element/CareerSingle/CareerForm';
+import Help from '../utils/Help';
 
 const CareerSingle = () => {
   const { userId } = useParams();
@@ -13,7 +15,8 @@ const CareerSingle = () => {
   return (
     <div>
       <JobDetail data={singleJob} />
-      
+      <CareerForm />
+      <Help title="How can we help you?" content="Are you ready to push boundaries and explore new frontiers of innovation?" />
     </div>
   )
 }

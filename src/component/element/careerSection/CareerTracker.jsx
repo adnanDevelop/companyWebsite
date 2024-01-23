@@ -1,5 +1,5 @@
 import React from 'react'
-import { trackerContent } from '../Data/Api'
+import { trackerContent } from '../../Data/Api'
 
 const CareerTracker = () => {
 

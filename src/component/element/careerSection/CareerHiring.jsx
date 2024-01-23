@@ -1,6 +1,5 @@
 import React from 'react'
-import { hiringContent } from '../Data/Api'
-
+import { hiringContent } from '../../Data/Api'
 
 const CareerHiring = () => {
     return (
