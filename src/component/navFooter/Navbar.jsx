@@ -29,16 +29,16 @@ const Navbar = () => {
       <div className="links_section lg:block hidden">
         <ul className="list-none flex items-center gap-6">
           <li className=" py-3" >
-            <button className="capitalize font-semibold text-slate-500 transition duration-500 hover:text-sky-500 relative dropdown">
+            <button className="capitalize me-6 font-semibold text-slate-500 transition duration-500 hover:text-sky-500 relative dropdown">
               Services{" "}
-              <span className="inline-block ms-1 ">
+              <span className=" ms-1 caret transition duration-500 inline-block ">
                 <FaCaretDown />
               </span>
-              <ul className="list-none dropdown bg-white absolute top-[250%] left-[-10%] w-[230px]  p-4 rounded-md  z-10  border border-soft-white  opacity-0">
+              <ul className="list-none dropdown bg-white absolute top-[250%] left-[-10%] w-[230px]  p-4 rounded-md  z-10  border border-soft-white  opacity-0 text-start">
                 <li>
                   <Link
                     to="/servicesolution"
-                    className="font-lg capitalize font-normal  text-black transition duration-500 hover:text-sky-500   inline-block mb-3 "
+                    className="font-lg capitalize font-normal text-black transition duration-500 hover:text-sky-500 inline-block mb-3"
                   >
                     communication solutions
                   </Link>
@@ -46,7 +46,7 @@ const Navbar = () => {
                 <li>
                   <Link
                     to="/servicesoftware"
-                    className="font-lg  capitalize font-normal text-black transition duration-500 hover:text-sky-500   inline-block mb-3 "
+                    className="font-lg capitalize font-normal text-black transition duration-500 hover:text-sky-500 inline-block mb-3"
                   >
                     software development
                   </Link>
@@ -54,7 +54,7 @@ const Navbar = () => {
                 <li>
                   <Link
                     to="/serviceautomation"
-                    className="font-lg  capitalize font-normal text-black transition duration-500 hover:text-sky-500 inline-block  "
+                    className="font-lg capitalize font-normal text-black transition duration-500 hover:text-sky-500 inline-block"
                   >
                     process automation
                   </Link>

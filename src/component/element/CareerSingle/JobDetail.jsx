@@ -12,7 +12,7 @@ const JobDetail = ({ data }) => {
         <div className="career_job_header mb-6 text-center flex items-center justify-center flex-col ">
           <h2 className='text-black font-bold xl:text-[50px] lg:text-[40px]  sm:text-[30px] text-[22px] capitalize  leading-none pb-3 '>{data[0].title}</h2>
           <p className='text-black pb-4 text-[14px]  border-b border-b-soft-white w-full '>{data[0].location} <span className='mx-2'>|</span> <span className='text-sky-500'>{data[0].jobType}</span></p>
-          <Link to='/' className='btn-primary-md capitalize md:mt-5 mt-3 ' >Apply Now</Link>
+          <Link to='/worktogether' className='btn-primary-md capitalize md:mt-5 mt-3 ' >Apply Now</Link>
 
         </div>
 

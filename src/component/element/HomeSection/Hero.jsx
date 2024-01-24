@@ -17,12 +17,12 @@ const Hero = () => {
         className="mySwiper"
       >
         <SwiperSlide>
-          <div className="hero_section w-full lg:h-[90vh] h-screen  bg-cover bg-fixed " style={{background : `url(${'/image/hero-bg-1.gif'}) no-repeat center   `}} >
+          <div className="hero_section w-full lg:h-[90vh] h-screen" style={{background : `url(${'/image/hero-bg-1.gif'}) no-repeat center   `}} >
 
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="hero_section w-full lg:h-[90vh] h-screen  bg-cover bg-fixed " style={{background : `url(${'/image/hero-bg-2.gif'}) no-repeat center   `}} >
+          <div className="hero_section w-full lg:h-[90vh] h-screen" style={{background : `url(${'/image/hero-bg-2.gif'}) no-repeat center   `}} >
 
           </div>
         </SwiperSlide>

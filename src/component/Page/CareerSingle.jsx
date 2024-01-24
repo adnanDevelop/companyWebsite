@@ -6,6 +6,9 @@ import CareerForm from '../element/CareerSingle/CareerForm';
 import Help from '../utils/Help';
 
 const CareerSingle = () => {
+  document.title='GoMarkho-Career Single Page'
+
+
   const { userId } = useParams();
 
   const singleJob = jobContent.filter((element, index) => {

@@ -6,6 +6,7 @@ import AboutStory from '../element/about/AboutStory'
 import AboutWork from '../element/about/AboutWork'
 
 const About = () => {
+  document.title='GoMarkho-About Page'
   return (
     <div>
       <AboutHero/>

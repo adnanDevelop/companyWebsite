@@ -6,6 +6,9 @@ import CareerJob from '../element/careerSection/CareerJob'
 import CareerHiring from '../element/careerSection/CareerHiring'
 
 const Career = () => {
+  document.title='GoMarkho-Career Page'
+
+
   return (
     <div>
       <CareerHero/>

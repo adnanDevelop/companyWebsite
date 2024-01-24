@@ -6,6 +6,8 @@ import CompanySection from '../element/HomeSection/CompanySection'
 import TestmonialSection from '../element/HomeSection/TestmonialSection'
 
 const Home = () => {
+
+
   return (
     <div>
      <Hero/>

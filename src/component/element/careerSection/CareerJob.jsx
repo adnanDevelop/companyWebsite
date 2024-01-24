@@ -24,19 +24,17 @@ const CareerJob = () => {
                         </div>
                     )
                 })}
+
                 {/* CAN'T FIND CARD */}
                 <div className=' md:col-span-2  career_card border  md:py-[100px] py-[50px] sm-px-1 px-[20px]  border-[#CBCBCB]  rounded-[20px] flex items-center justify-center flex-col transition duration-500 group hover:bg-blue   '>
                     <h3 className='text-black sm:text-[30px] text-[20px] font-bold  leading-none mb-3 text-center transition duration-500  group-hover:text-white group-focus:text-white '>Can't find position you are looking for?</h3>
                     <p className='text-black font-secondary sm:text-[18px] text-[14px]  font-normal text-justify text-last-justify transition duration-500  group-hover:text-white group-focus:text-white '>
                         Don't worry, get in touch with us anyways, we are always <br className='md:block hidden' /> looking for great team members to join us.
                     </p>
-                    <Link to='/' className=' inline-block mt-4 apitalize font-bold text-white bg-sky-500 rounded-full px-[30px] py-[15px] transition duration-300 group-hover:bg-white  group-hover:text-black group-focus:text-black  ' >apply now</Link>
+                    <Link to='/' className=' inline-block mt-4 capitalize font-bold text-white bg-sky-500 rounded-full px-[30px] py-[15px] transition duration-300 group-hover:bg-white  group-hover:text-black group-focus:text-black  ' >apply now</Link>
 
                 </div>
             </div>
-
-
-
         </div>
     )
 }

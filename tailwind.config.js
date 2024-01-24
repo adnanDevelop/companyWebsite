@@ -15,7 +15,7 @@ module.exports = {
         900: "#146C94",
       },
       'white': "#FFFFFF",
-      'light-white': "#f9f9f9",
+      'light-white': "#F9F9F9",
       'soft-white': "#EEEEEE",
       'black': "#000000",
       'gray': '#797979',
@@ -25,6 +25,7 @@ module.exports = {
     fontFamily: {
       'primary': ['Plus Jakarta Sans', "sans-serif"],
       'secondary': ['Roboto', 'sans-serif'],
+      'blog' : ['Nunito Sans', 'sans-serif']
     },
   },
   plugins: [],
